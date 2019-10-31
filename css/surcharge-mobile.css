@@ -7780,22 +7780,40 @@ html[lang="en"] div#zone2 div.serenite {
 /* Components */
 /* Layouts */
 /* pages */
-.content800296 {
+.content800296 .container-landing {
+  background-image: url("img/sia2018/landing/background-animaux.jpg"); }
+
+.content800430 .container-landing {
+  background-image: url("img/sia2018/landing/background-gourmand.jpg"); }
+
+.content800296,
+.content800430 {
   background: inherit; }
-  .content800296 .wrapper {
+  .content800296 .wrapper,
+  .content800430 .wrapper {
     padding: 0; }
-  .content800296 .content-global {
+  .content800296 .content-global,
+  .content800430 .content-global {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-  .content800296 .container-landing {
-    background-image: url("img/sia2018/landing/background-animaux.jpg");
+  .content800296 .container-landing,
+  .content800430 .container-landing {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     position: relative; }
-    .content800296 .container-landing .section-content {
+    @media screen and (max-width: 768px) {
+      .content800296 .container-landing,
+      .content800430 .container-landing {
+        background-position: 24% 12%; } }
+    @media screen and (max-width: 480px) {
+      .content800296 .container-landing,
+      .content800430 .container-landing {
+        background-position: 28% 12%; } }
+    .content800296 .container-landing .section-content,
+    .content800430 .container-landing .section-content {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -7805,14 +7823,22 @@ html[lang="en"] div#zone2 div.serenite {
               flex-direction: column;
       padding: 6rem 8rem; }
       @media screen and (max-width: 480px) {
-        .content800296 .container-landing .section-content {
+        .content800296 .container-landing .section-content,
+        .content800430 .container-landing .section-content {
           padding: 6rem 6rem; } }
       @media screen and (max-width: 360px) {
-        .content800296 .container-landing .section-content {
+        .content800296 .container-landing .section-content,
+        .content800430 .container-landing .section-content {
           padding: 4rem 4rem; } }
-      .content800296 .container-landing .section-content .container-logo .logo {
+      .content800296 .container-landing .section-content .container-logo .logo,
+      .content800430 .container-landing .section-content .container-logo .logo {
         max-width: 24rem !important; }
-      .content800296 .container-landing .section-content .txt {
+        @media screen and (max-width: 480px) {
+          .content800296 .container-landing .section-content .container-logo .logo,
+          .content800430 .container-landing .section-content .container-logo .logo {
+            max-width: 16rem !important; } }
+      .content800296 .container-landing .section-content .txt,
+      .content800430 .container-landing .section-content .txt {
         margin: 10% 0 0 0;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -7825,9 +7851,11 @@ html[lang="en"] div#zone2 div.serenite {
             -ms-flex-pack: end;
                 justify-content: flex-end; }
         @media screen and (max-width: 1600px) {
-          .content800296 .container-landing .section-content .txt {
+          .content800296 .container-landing .section-content .txt,
+          .content800430 .container-landing .section-content .txt {
             margin: 10% 0 0 0; } }
-        .content800296 .container-landing .section-content .txt em {
+        .content800296 .container-landing .section-content .txt em,
+        .content800430 .container-landing .section-content .txt em {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -7836,15 +7864,18 @@ html[lang="en"] div#zone2 div.serenite {
           font-style: initial;
           margin-bottom: 0rem;
           color: white; }
-        .content800296 .container-landing .section-content .txt strong {
+        .content800296 .container-landing .section-content .txt strong,
+        .content800430 .container-landing .section-content .txt strong {
           font-size: 5.2rem;
           line-height: 5rem;
           font-family: "sofiapro-bold", helvetica, arial, sans-serif;
           color: white; }
           @media screen and (max-width: 480px) {
-            .content800296 .container-landing .section-content .txt strong {
+            .content800296 .container-landing .section-content .txt strong,
+            .content800430 .container-landing .section-content .txt strong {
               font-size: 4.2rem; } }
-        .content800296 .container-landing .section-content .txt h1 {
+        .content800296 .container-landing .section-content .txt h1,
+        .content800430 .container-landing .section-content .txt h1 {
           -webkit-text-fill-color: transparent;
           -webkit-text-stroke-width: 0.2rem;
           -webkit-text-stroke-color: white;
@@ -7856,14 +7887,17 @@ html[lang="en"] div#zone2 div.serenite {
           border-bottom: 0;
           line-height: 9.8rem; }
           @media screen and (max-width: 480px) {
-            .content800296 .container-landing .section-content .txt h1 {
+            .content800296 .container-landing .section-content .txt h1,
+            .content800430 .container-landing .section-content .txt h1 {
               font-size: 8rem;
               line-height: 7.8rem; } }
           @media screen and (max-width: 360px) {
-            .content800296 .container-landing .section-content .txt h1 {
+            .content800296 .container-landing .section-content .txt h1,
+            .content800430 .container-landing .section-content .txt h1 {
               font-size: 6rem;
               line-height: 5.8rem; } }
-        .content800296 .container-landing .section-content .txt p.date {
+        .content800296 .container-landing .section-content .txt p.date,
+        .content800430 .container-landing .section-content .txt p.date {
           font-size: 2.2rem;
           font-family: "sofiapro-bold", helvetica, arial, sans-serif;
           color: white;
@@ -7872,9 +7906,11 @@ html[lang="en"] div#zone2 div.serenite {
           font-weight: 700;
           max-width: 60rem; }
           @media screen and (max-width: 480px) {
-            .content800296 .container-landing .section-content .txt p.date {
+            .content800296 .container-landing .section-content .txt p.date,
+            .content800430 .container-landing .section-content .txt p.date {
               margin-bottom: 3.5rem; } }
-        .content800296 .container-landing .section-content .txt h2 {
+        .content800296 .container-landing .section-content .txt h2,
+        .content800430 .container-landing .section-content .txt h2 {
           font-size: 3rem;
           font-family: "akrobat-bold", helvetica, arial, sans-serif;
           color: white;
@@ -7883,10 +7919,12 @@ html[lang="en"] div#zone2 div.serenite {
           max-width: 60rem;
           margin-top: 0; }
           @media screen and (max-width: 480px) {
-            .content800296 .container-landing .section-content .txt h2 {
+            .content800296 .container-landing .section-content .txt h2,
+            .content800430 .container-landing .section-content .txt h2 {
               font-size: 2.5rem;
               line-height: 3.5rem; } }
-        .content800296 .container-landing .section-content .txt p.current-txt {
+        .content800296 .container-landing .section-content .txt p.current-txt,
+        .content800430 .container-landing .section-content .txt p.current-txt {
           font-size: 2.1rem;
           font-family: "akrobat-bold", helvetica, arial, sans-serif;
           color: white;
@@ -7895,11 +7933,14 @@ html[lang="en"] div#zone2 div.serenite {
           max-width: 60rem;
           margin-top: 0; }
     @media screen and (max-width: 768px) {
-      .content800296 .container-landing iframe {
+      .content800296 .container-landing iframe,
+      .content800430 .container-landing iframe {
         max-width: 80%; } }
-    .content800296 .container-landing .section-form {
+    .content800296 .container-landing .section-form,
+    .content800430 .container-landing .section-form {
       padding: 0; }
-      .content800296 .container-landing .section-form .form {
+      .content800296 .container-landing .section-form .form,
+      .content800430 .container-landing .section-form .form {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -7908,7 +7949,8 @@ html[lang="en"] div#zone2 div.serenite {
                 justify-content: center;
         overflow-y: scroll;
         padding-bottom: 40rem; }
-    .content800296 .container-landing .container-agrimalin {
+    .content800296 .container-landing .container-agrimalin,
+    .content800430 .container-landing .container-agrimalin {
       position: absolute;
       padding-bottom: 0rem;
       color: #41A62A;
@@ -7922,11 +7964,14 @@ html[lang="en"] div#zone2 div.serenite {
           -ms-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%); }
       @media screen and (max-width: 480px) {
-        .content800296 .container-landing .container-agrimalin {
+        .content800296 .container-landing .container-agrimalin,
+        .content800430 .container-landing .container-agrimalin {
           min-width: 80%; } }
-      .content800296 .container-landing .container-agrimalin:hover {
+      .content800296 .container-landing .container-agrimalin:hover,
+      .content800430 .container-landing .container-agrimalin:hover {
         bottom: -1rem; }
-      .content800296 .container-landing .container-agrimalin::before {
+      .content800296 .container-landing .container-agrimalin::before,
+      .content800430 .container-landing .container-agrimalin::before {
         content: '';
         position: absolute;
         background-image: url(img/sia2018/landing/main-1.svg);
@@ -7935,7 +7980,8 @@ html[lang="en"] div#zone2 div.serenite {
         left: 9rem;
         top: 5.6rem;
         z-index: 999; }
-      .content800296 .container-landing .container-agrimalin::after {
+      .content800296 .container-landing .container-agrimalin::after,
+      .content800430 .container-landing .container-agrimalin::after {
         content: '';
         position: absolute;
         background-image: url(img/sia2018/landing/main-2.svg);
@@ -7944,7 +7990,8 @@ html[lang="en"] div#zone2 div.serenite {
         right: 9.2rem;
         top: 5.6rem;
         z-index: 999; }
-      .content800296 .container-landing .container-agrimalin .content-anecdote {
+      .content800296 .container-landing .container-agrimalin .content-anecdote,
+      .content800430 .container-landing .container-agrimalin .content-anecdote {
         background: white;
         padding: 3rem;
         border-radius: 2rem;
@@ -7953,7 +8000,8 @@ html[lang="en"] div#zone2 div.serenite {
         max-width: 38rem;
         min-height: 13rem;
         position: relative; }
-        .content800296 .container-landing .container-agrimalin .content-anecdote .cta-anecdote {
+        .content800296 .container-landing .container-agrimalin .content-anecdote .cta-anecdote,
+        .content800430 .container-landing .container-agrimalin .content-anecdote .cta-anecdote {
           position: absolute;
           width: 2.5rem;
           height: 2.2rem;
@@ -7961,15 +8009,19 @@ html[lang="en"] div#zone2 div.serenite {
           top: 1.5rem;
           right: 1.6rem;
           cursor: pointer; }
-        .content800296 .container-landing .container-agrimalin .content-anecdote .quote {
+        .content800296 .container-landing .container-agrimalin .content-anecdote .quote,
+        .content800430 .container-landing .container-agrimalin .content-anecdote .quote {
           line-height: 2.2rem; }
-        .content800296 .container-landing .container-agrimalin .content-anecdote p {
+        .content800296 .container-landing .container-agrimalin .content-anecdote p,
+        .content800430 .container-landing .container-agrimalin .content-anecdote p {
           font-size: 1.6rem;
           font-family: "akrobat-bold", helvetica, arial, sans-serif; }
           @media screen and (max-width: 480px) {
-            .content800296 .container-landing .container-agrimalin .content-anecdote p {
+            .content800296 .container-landing .container-agrimalin .content-anecdote p,
+            .content800430 .container-landing .container-agrimalin .content-anecdote p {
               font-size: 1.8rem; } }
-      .content800296 .container-landing .container-agrimalin img {
+      .content800296 .container-landing .container-agrimalin img,
+      .content800430 .container-landing .container-agrimalin img {
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
             -ms-transform: translate(-50%, -50%);
