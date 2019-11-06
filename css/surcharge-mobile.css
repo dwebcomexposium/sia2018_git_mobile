@@ -7785,6 +7785,9 @@ html[lang="en"] div#zone2 div.serenite {
 
 .content800430 .container-landing {
   background-image: url("img/sia2018/landing/background-gourmand.jpg"); }
+  @media screen and (max-width: 480px) {
+    .content800430 .container-landing {
+      background-position: 82% 2% !important; } }
 
 .content800296,
 .content800430 {
@@ -7967,6 +7970,14 @@ html[lang="en"] div#zone2 div.serenite {
         .content800296 .container-landing .container-agrimalin,
         .content800430 .container-landing .container-agrimalin {
           min-width: 80%; } }
+      @media screen and (max-width: 480px) {
+        .content800296 .container-landing .container-agrimalin,
+        .content800430 .container-landing .container-agrimalin {
+          margin-bottom: 10rem; } }
+      @media screen and (max-width: 375px) {
+        .content800296 .container-landing .container-agrimalin,
+        .content800430 .container-landing .container-agrimalin {
+          margin-bottom: 7rem; } }
       .content800296 .container-landing .container-agrimalin:hover,
       .content800430 .container-landing .container-agrimalin:hover {
         bottom: -1rem; }
@@ -8030,3 +8041,66 @@ html[lang="en"] div#zone2 div.serenite {
         z-index: 2;
         position: relative;
         z-index: -1; }
+    .content800296 .container-landing .footer,
+    .content800430 .container-landing .footer {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      bottom: 1.78rem;
+      right: 6.9rem; }
+      @media screen and (max-width: 480px) {
+        .content800296 .container-landing .footer,
+        .content800430 .container-landing .footer {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          text-align: center;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          position: inherit;
+          bottom: inherit;
+          right: inherit; } }
+      .content800296 .container-landing .footer a,
+      .content800430 .container-landing .footer a {
+        font-size: 1.4rem;
+        color: white;
+        font-family: "akrobat-bold", helvetica, arial, sans-serif;
+        display: inline-block;
+        padding: 1rem 1.5rem 0 1.5rem;
+        position: relative; }
+        @media screen and (max-width: 1440px) {
+          .content800296 .container-landing .footer a,
+          .content800430 .container-landing .footer a {
+            font-size: 1.1rem; } }
+        @media screen and (max-width: 480px) {
+          .content800296 .container-landing .footer a,
+          .content800430 .container-landing .footer a {
+            font-size: 1.5rem;
+            padding: 1rem; } }
+        .content800296 .container-landing .footer a:hover,
+        .content800430 .container-landing .footer a:hover {
+          color: #83b81a; }
+        .content800296 .container-landing .footer a:nth-last-child(1)::after,
+        .content800430 .container-landing .footer a:nth-last-child(1)::after {
+          display: none; }
+        .content800296 .container-landing .footer a::after,
+        .content800430 .container-landing .footer a::after {
+          content: "";
+          position: absolute;
+          width: .15rem;
+          height: 2.8rem;
+          background: white;
+          right: -.4rem;
+          bottom: -.3rem; }
+          @media screen and (max-width: 480px) {
+            .content800296 .container-landing .footer a::after,
+            .content800430 .container-landing .footer a::after {
+              display: none; } }
