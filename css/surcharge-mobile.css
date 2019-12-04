@@ -9212,13 +9212,23 @@ html[lang="en"] div#zone2 div.serenite {
 /* pages */
 
 .fond-animaux {
-   background-image: url("img/sia2018/landing/background-animaux-mobile.jpg");
-   height:100%;
+    background-image: url("img/sia2018/landing/background-animaux-mobile.jpg");
+    height:100%;
     width:100%;
     position:fixed;
-     background-size: cover;
-     z-index: 0;
-     min-height: 100vh;
+    background-size: cover;
+    z-index: 0;
+    min-height: 100vh;
+}
+
+.fond-gourmand {
+    background-image: url("img/sia2018/landing/background-gourmands-mobile.jpg");
+    height:100%;
+    width:100%;
+    position:fixed;
+    background-size: cover;
+    z-index: 0;
+    min-height: 100vh;
 }
 
 .content800296 .container-landing {
@@ -9229,7 +9239,6 @@ html[lang="en"] div#zone2 div.serenite {
 }
 
 .content800430 .container-landing {
-   background-image: url("img/sia2018/landing/background-gourmand.jpg");
      background-attachment:fixed !important;
     -webkit-background-attachment:fixed !important;
     -ms-background-attachment:fixed !important;
