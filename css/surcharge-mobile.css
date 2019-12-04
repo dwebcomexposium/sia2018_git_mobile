@@ -9216,7 +9216,7 @@ html[lang="en"] div#zone2 div.serenite {
      background-attachment:fixed !important;
     -webkit-background-attachment:fixed !important;
     -ms-background-attachment:fixed !important;
-
+     background-size: cover !important;
 }
 
 .content800430 .container-landing {
@@ -9224,6 +9224,7 @@ html[lang="en"] div#zone2 div.serenite {
      background-attachment:fixed !important;
     -webkit-background-attachment:fixed !important;
     -ms-background-attachment:fixed !important;
+     background-size: cover !important;
 }
 
 @media screen and (max-width: 480px) {
