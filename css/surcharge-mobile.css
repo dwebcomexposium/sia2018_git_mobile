@@ -9218,6 +9218,7 @@ html[lang="en"] div#zone2 div.serenite {
     position:fixed;
      background-size: cover;
      z-index: 0;
+     min-height: 100vh;
 }
 
 .content800296 .container-landing {
