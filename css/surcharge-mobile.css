@@ -9216,9 +9216,6 @@ html[lang="en"] div#zone2 div.serenite {
      background-attachment:fixed !important;
     -webkit-background-attachment:fixed !important;
     -ms-background-attachment:fixed !important;
-    height:100% !important;
-    width:100% !important;
-    position:fixed !important;
 
 }
 
@@ -9227,9 +9224,6 @@ html[lang="en"] div#zone2 div.serenite {
      background-attachment:fixed !important;
     -webkit-background-attachment:fixed !important;
     -ms-background-attachment:fixed !important;
-    height:100% !important;
-    width:100% !important;
-    position:fixed !important;
 }
 
 @media screen and (max-width: 480px) {
