@@ -9211,8 +9211,17 @@ html[lang="en"] div#zone2 div.serenite {
 
 /* pages */
 
-.content800296 .container-landing {
+.fond {
    background-image: url("img/sia2018/landing/background-animaux.jpg");
+   height:100%;
+    width:100%;
+position:fixed;
+	z-index: -1;
+
+
+}
+
+.content800296 .container-landing {
      background-attachment:fixed !important;
     -webkit-background-attachment:fixed !important;
     -ms-background-attachment:fixed !important;
