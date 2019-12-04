@@ -9211,14 +9211,12 @@ html[lang="en"] div#zone2 div.serenite {
 
 /* pages */
 
-.fond {
-   background-image: url("img/sia2018/landing/background-animaux.jpg");
+.fond-animaux {
+   background-image: url("img/sia2018/landing/background-animaux-mobile.jpg");
    height:100%;
     width:100%;
-position:fixed;
-	z-index: -1;
-
-
+     position:fixed;
+     z-index: 0;
 }
 
 .content800296 .container-landing {
